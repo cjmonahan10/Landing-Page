@@ -6,6 +6,11 @@ ul {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,26 +18,29 @@ body {
     height: 100vh;
 }
 
+/* Header */
+
 div.header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 200px;
+    background-color: #1F2937;
+    ;
 }
+
+div.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Block One */
 
 div.block-one {
     display: flex;
-    align-items: baseline;
-    background-color: #1F2937;
-}
-
-div.block-two {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-div.items {
-    display: flex;
+    gap: 50px;
+    background-color: #1F2937;
+    padding: 50px 200px 50px 200px;
 }
 
 div.header-one {
@@ -44,6 +52,7 @@ div.header-one {
 div.body-one {
     color: #E5E7EB;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 
 button.button-one {
@@ -54,6 +63,125 @@ button.button-one {
     border: 0px;
 }
 
-img.item-box {
-    border: ;
+div.img-logo {
+    display: flex;
+    height: 250px;
+    width: auto;
+}
+
+/* Block Two */
+
+div.block-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+div.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    gap: 50px;
+}
+
+.items img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.items p {
+    font-size: 18px;
+    color: #1F2937;
+    
+}
+
+.items div {
+    width: 150px;
+}
+
+.header-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* Block Three */
+
+.block-three {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-weight: 100;
+    gap: 50px;
+}
+
+.block-three p {
+    margin: 0;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 500;
+}
+
+/* Block four */
+
+.block-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.button-two {
+    background-color: #3882f6;
+    height: 200px;
+    width: 900px;
+    border: 0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.button-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.button-two button {
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px 0;
+    color: #F9FAF8;
 }
